@@ -11,11 +11,10 @@
             <div class="col-lg-9 col-md-8 col-sm-8 templatemo-nav-container">
                 <nav class="templatemo-nav">
                     <ul>
-                        <li><a href="index.html" class="active">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="profile.html">profile</a></li>
-                        <li><a href="contact.html">contact</a></li>
-                    </ul>
+                        <li><a href="{{url('/')}}" class="@yield('menu_home')">Home</a></li>
+                        <li><a href="{{url('about')}}" class="@yield('menu_about')">About</a></li>
+                        <li><a href="{{url('profile')}}" class="@yield('menu_profile')">profile</a></li>
+                        <li><a href="{{url('contact')}}"class="@yield('menu_contact')">contact</a></li>
                 </nav>
             </div>
         </div>

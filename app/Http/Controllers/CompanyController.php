@@ -11,15 +11,15 @@ class CompanyController extends Controller
     }
 
     public function about(){
-        return view();
+        return view('about');
     }
 
     public function profile(){
-        return view();
+        return view('profile');
     }
 
     public function contact(){
-        return view();
+        return view('contact');
     }
 
 }

@@ -26,27 +26,8 @@
     </head>
     <body class="templatemo-container">
         <!-- header -->
-        @include('layouts.header')
-        <!-- end header -->
-        <!-- header image -->
-        <div class="header-img"></div>
-        <!-- end header image -->
-        <!-- Welcome message -->
-        <div class="welcome-container">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="welcome-wrapper">
-                            <h2 class="welcome-title text-uppercase">Welcome</h2>
-                            <img src="img/welcome-divider-lines.png" alt="Welcome divider" class="welcome-divider-lines-img">
-                            <p class="welcome-description">Multi Profile is free responsive website template for everyone. Feel free to download and use this template for your websites. Thank you for visiting templatemo.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Welcome message -->
-        <!-- main content -->
+        @include('layouts.navbar')
+        
         @yield('content')
         <!-- end main content -->
         <!-- Features -->
