@@ -1,10 +1,9 @@
 @extends('layouts.main')
-@section('menu_profu', 'active')
+@section('menu_profile', 'active')
 @section('content')
 
 
-        <!-- end header -->
-        <!-- header image -->
+
         <div class="header-img-3"></div>
         <!-- end header image -->
         <!-- Welcome message -->
