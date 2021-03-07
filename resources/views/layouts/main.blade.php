@@ -27,11 +27,9 @@
     <body class="templatemo-container">
         <!-- header -->
         @include('layouts.navbar')
-        
-        @yield('content')
         <!-- end main content -->
         <!-- Features -->
-        @include('layouts.features')
+        @yield('content')
         <!-- end main content -->
         <!-- Footer -->
         @include('layouts.footer')

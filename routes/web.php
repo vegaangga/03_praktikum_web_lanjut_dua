@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\CompanyController;
+use App\Http\Controllers\PostController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -20,4 +21,8 @@ use Illuminate\Support\Facades\Route;
    Route::get('/about',[CompanyController::class, 'about']);
    Route::get('/profile',[CompanyController::class, 'profile']);
    Route::get('/contact',[CompanyController::class, 'contact']);
+
+//Praktikum 4 Model - Database
+
+Route::get('/',[PostController::class, 'post']);
 
